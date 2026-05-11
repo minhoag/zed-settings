@@ -1,0 +1,128 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "go_to_definition_scroll_strategy": "center",
+  "diff_view_style": "split",
+  "outline_panel": {
+    "dock": "left",
+  },
+  "git_panel": {
+    "dock": "right",
+  },
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "restore_on_startup": "last_session",
+  "agent": {
+    "dock": "right",
+    "default_profile": "write",
+    "flexible": false,
+    "default_width": 320,
+  },
+  "edit_predictions": {
+    "provider": "zed",
+  },
+  "colorize_brackets": true,
+  "use_system_window_tabs": true,
+  "rounded_selection": true,
+  "lsp_document_colors": "inlay",
+  "inline_code_actions": false,
+  "minimap": {
+    "show": "never",
+  },
+  "search": {
+    "button": true,
+    "case_sensitive": true,
+    "center_on_match": true,
+  },
+  "project_panel": {
+    "auto_reveal_entries": true,
+    "diagnostic_badges": true,
+    "starts_open": true,
+    "sticky_scroll": true,
+    "indent_size": 12,
+    "dock": "left",
+    "scrollbar": {
+      "show": "never",
+      "horizontal_scroll": true,
+    },
+  },
+  "sticky_scroll": {
+    "enabled": true,
+  },
+  "scrollbar": {
+    "show": "auto",
+  },
+  "terminal": {
+    "keep_selection_on_copy": false,
+    "toolbar": {
+      "breadcrumbs": false,
+    },
+  },
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": false,
+    "selections_menu": false,
+  },
+  "ui_font_family": ".ZedSans",
+  "buffer_font_family": ".ZedMono",
+  "hide_mouse": "on_typing_and_action",
+  // Will be triggered manually with `ctrl-x ctrl-c`.
+  "show_edit_predictions": false,
+  "inlay_hints": {
+    "enabled": false,
+  },
+  "theme": "Catppuccin Frappé - No Italics",
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false,
+  },
+  "vim_mode": true,
+  "ui_font_size": 14,
+  "buffer_font_size": 16,
+  "cursor_blink": false,
+  "relative_line_numbers": "enabled",
+  "tab_bar": {
+    "show_pinned_tabs_in_separate_row": true,
+    "show": true,
+  },
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "indent_aware",
+  },
+  "tabs": {
+    "show_diagnostics": "all",
+    "file_icons": true,
+    "git_status": true,
+  },
+  "preview_tabs": {
+    "enable_preview_from_project_panel": true,
+    "enable_preview_from_file_finder": false,
+    "enable_preview_from_multibuffer": false,
+    "enable_preview_multibuffer_from_code_navigation": false,
+    "enable_preview_file_from_code_navigation": false,
+  },
+  "git": {
+    "git_gutter": "tracked_files",
+    "inline_blame": {
+      "enabled": true,
+    },
+  },
+  "status_bar": {
+    "active_language_button": false,
+    "cursor_position_button": false,
+    "experimental.show": true,
+  },
+  "vim": {
+    "use_system_clipboard": "never",
+  },
+  "wrap_guides": [90],
+  "show_wrap_guides": true,
+  "completion_menu_scrollbar": "auto",
+}

@@ -7,6 +7,9 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "agent_buffer_font_size": 12.0,
+  "agent_ui_font_size": 16.0,
+  "ui_font_weight": 400.0,
   "go_to_definition_scroll_strategy": "center",
   "diff_view_style": "split",
   "outline_panel": {
@@ -84,8 +87,8 @@
     "diagnostics": false,
   },
   "vim_mode": true,
-  "ui_font_size": 14,
-  "buffer_font_size": 16,
+  "ui_font_size": 16.0,
+  "buffer_font_size": 16.0,
   "cursor_blink": false,
   "relative_line_numbers": "enabled",
   "tab_bar": {
@@ -123,6 +126,7 @@
     "use_system_clipboard": "never",
   },
   "wrap_guides": [90],
+  "soft_wrap": "editor_width",
   "show_wrap_guides": true,
   "completion_menu_scrollbar": "auto",
 }
